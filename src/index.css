@@ -1,19 +1,31 @@
+body {
+  background: whitesmoke;
+}
+
 .leadertext {
   width: 55%;
   margin: auto;
+  color: darkblue;
 }
 
 .refreshbtn {
   padding: 5px 22px;
+  background-color: rgb(231, 231, 231);
+}
+
+.refreshbtn:hover {
+  background-color: darkgray;
+  cursor: pointer;
 }
 
 .leaderbord {
-  border: 2px solid black;
+  border: 2px solid darkgray;
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
+  background: lightgray;
 }
 
 .scoreflext {
@@ -23,43 +35,54 @@
   gap: 5rem;
 }
 
-.scorelist > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 22px;
-  font-weight: 300;
-}
-
 .scorelist > ul > li {
   list-style-type: none;
-  margin-left: -15%;
-  border: 1px solid whitesmoke;
+  margin-left: -15.5%;
+  border: 2px solid lightgray;
+}
+
+.scorelist {
+  border: 1px solid darkgray;
 }
 
 .addform > :nth-child(3) {
   width: 8rem;
-  border: 1px solid gray;
   font-size: 16px;
   margin-left: 57%;
 }
 
 .scorelist > ul :nth-child(even) {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(231, 231, 231);
 }
 
-.addform_container {
-  margin-top: 2.5rem;
+.addform > :nth-child(3):hover {
+  background-color: darkgray;
+  cursor: pointer;
 }
 
 .addform {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border: 1px solid whitesmoke;
+  border: 1px solid lightgray;
   width: 300px;
 }
 
 .addform > input {
   padding: 0.6rem;
+  outline: none;
+  background-color: rgb(231, 231, 231);
+}
+
+#scorelist > li {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  gap: 3%;
+  border: 1.5px solid lightgray;
+}
+
+#scorelist > li > h5 {
+  width: 30%;
+  background-color: transparent;
 }

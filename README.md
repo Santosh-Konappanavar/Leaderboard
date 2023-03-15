@@ -11,6 +11,7 @@
   - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -95,6 +96,13 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 🔭 Future Features <a name="future-features"></a>
+
+-  The mobile version would be updated
+-  The webapp would be able to send and receive data from API
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 

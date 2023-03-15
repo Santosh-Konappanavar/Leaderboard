@@ -51,13 +51,13 @@ body {
   margin-left: 57%;
 }
 
+.scorelist > ul :nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
+
 .addform > :nth-child(3):hover {
   background-color: darkgray;
   cursor: pointer;
-}
-
-.scorelist > ul :nth-child(even) {
-  background-color: rgb(231, 231, 231);
 }
 
 .addform {

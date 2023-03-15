@@ -17,15 +17,12 @@
             <div class="scorecontainer">
                     <div class="scoreflext">
                         <h2>Recent score</h2>
-                        <button type="submit" name="refresh" class="refreshbtn">refresh</button>
+                        <button type="submit" name="refresh" class="refreshbtn" id="refresh">refresh</button>
                     </div>
 
-                    <div id="scorelist" class="scorelist">
-                        <ul>
-                            <li>santosh 100</li>
-                            <li> siddu 90</li>
-                            <li>samrtha 80</li>
-                            <li>friends 100%</li>
+                    <div  class="scorelist">
+                        <ul id="scorelist">
+
                         </ul>
                     </div>
             </div>
@@ -36,8 +33,8 @@
                 </div>
                 <div class="addform_container">
                     <form class="addform" >
-                        <input type="text" placeholder="Yourname" />
-                        <input type="text" placeholder="Yourscore" />
+                        <input type="text" placeholder="Yourname" id="name" required />
+                        <input type="text" placeholder="Yourscore" id="score" required />
                         <input type="submit" />
                     </form>
                 </div>

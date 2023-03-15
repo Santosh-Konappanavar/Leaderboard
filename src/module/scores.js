@@ -12,7 +12,7 @@ const display = async () => {
   const scores = await getscore();
   scores.forEach(({ user, score }) => {
     const lists = document.createElement('li');
-    lists.textContent = `${user}: ${score}`;
+    lists.innerHTML = `<h5>${user}</h5><h5> ${score}</h5>`;
     scorecontainer.append(lists);
   });
 };

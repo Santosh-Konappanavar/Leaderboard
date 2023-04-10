@@ -133,6 +133,6 @@ Feel free to check the [issues page](https://github.com/Santosh-Konappanavar/Lea
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](href="https://github.com/Santosh-Konappanavar/Leaderboard/blob/main/LICENSE") licensed.
+This project is [MIT](https://github.com/Santosh-Konappanavar/Leaderboard/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

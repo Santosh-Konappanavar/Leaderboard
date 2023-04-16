@@ -1,4 +1,4 @@
-const postapi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/usdPzo4JD68WLDEYoQ2d/scores';
+const postapi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3sLabpuuI44w7c4yWI9r/scores';
 
 const addscores = async (user, score) => {
   const response = await fetch(postapi, {

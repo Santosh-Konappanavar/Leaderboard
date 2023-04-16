@@ -20,12 +20,14 @@ body {
 
 .leaderbord {
   border: 2px solid darkgray;
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
   background: lightgray;
+  border-radius: 4px;
+  box-shadow: 14px 17px 32px 5px rgba(0, 0, 0, 0.31);
 }
 
 .scoreflext {
@@ -37,7 +39,6 @@ body {
 
 .scorelist > ul > li {
   list-style-type: none;
-  margin-left: -15.5%;
   border: 2px solid lightgray;
 }
 
@@ -48,11 +49,7 @@ body {
 .addform > :nth-child(3) {
   width: 8rem;
   font-size: 16px;
-  margin-left: 57%;
-}
-
-.scorelist > ul :nth-child(even) {
-  background-color: rgb(231, 231, 231);
+  margin-left: 46.5%;
 }
 
 .addform > :nth-child(3):hover {
@@ -77,6 +74,7 @@ body {
 #scorelist > li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 35px;
   gap: 3%;
   border: 1.5px solid lightgray;
